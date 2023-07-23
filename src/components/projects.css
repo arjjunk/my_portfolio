@@ -1,0 +1,127 @@
+.project-body{
+    width: 100%;
+    height: 100vh;
+}
+
+.project-body .project-head{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 315%;
+    left: 50%;
+    
+
+}
+
+.project-body .project-head h1{
+    font-size: 2.5rem;
+
+}
+.project-body .project-content1 {
+    position: absolute;
+    top: 325%;
+    left: 20%;
+}
+.project-body .project-content2 {
+    position: absolute;
+    top: 325%;
+    left: 40%;
+}
+.project-body .project-content3 {
+    position: absolute;
+    top: 325%;
+    left: 60%;
+}
+.line3{
+    height:0px;
+    width:1px;
+    border-bottom:1px solid #00f;
+    
+    -webkit-animation: increase 3s;
+    -moz-animation:    increase 3s; 
+    -o-animation:      increase 3s; 
+    animation:         increase 3s; 
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
+  }
+  
+  @keyframes increase {
+      100% {
+          width: 250px;
+      }
+  }
+.mask-abt{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.img3{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}  
+
+.project-body .more-projects{
+    position: absolute;
+    top: 365%;
+    left: 40%;
+    font-size: 2rem;
+}
+
+/* .mask3::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.8;
+
+} */
+
+
+
+
+
+
+@media screen and (max-width:1040px){
+    .project-body{
+        width: 100%;
+        height: 150vh;
+    }
+    
+    .project-body .project-head{
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 310%;
+        font-size: 1rem;
+    }
+    .project-body .project-content1 {
+        position: absolute;
+        top: 315%;
+        left: 2%;
+    }
+    .project-body .project-content2 {
+        position: absolute;
+        top: 358%;
+        left: 2%;
+    }
+    .project-body .project-content3 {
+        position: absolute;
+        top: 400%;
+        left: 2%;
+    }
+    .project-body .more-projects{
+        position: absolute;
+        top: 445%;
+        left: 25%;
+        font-size: 1.5rem;
+    }
+    .project-body .project-content p{
+        font-size: 0.7rem;
+    }
+
+}
