@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.49912276.css",
+    "main.css": "/static/css/main.7240864b.css",
     "main.js": "/static/js/main.366c6509.js",
     "static/media/vid1.mp4": "/static/media/vid1.bbf711bfd9698d7079be.mp4",
     "static/media/sporthub.png": "/static/media/sporthub.707c3d4d8b7419b216a8.png",
@@ -12,11 +12,11 @@
     "static/media/bg2.jpg": "/static/media/bg2.009b202d72cbc9e5ec9a.jpg",
     "static/media/techneeds.png": "/static/media/techneeds.2c91538b00a02ac6a16a.png",
     "index.html": "/index.html",
-    "main.49912276.css.map": "/static/css/main.49912276.css.map",
+    "main.7240864b.css.map": "/static/css/main.7240864b.css.map",
     "main.366c6509.js.map": "/static/js/main.366c6509.js.map"
   },
   "entrypoints": [
-    "static/css/main.49912276.css",
+    "static/css/main.7240864b.css",
     "static/js/main.366c6509.js"
   ]
 }
